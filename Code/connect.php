@@ -6,7 +6,7 @@ $user="KAdmin";
 $password="20Mysqlonly!101";
 $dbname="drugdispensarydatabase";
 
-$con = mysqli_connect($host, $user, $password, $dbname, $port, $socket);
+$conn = mysqli_connect($host, $user, $password, $dbname, $port, $socket);
 	
 
 //$con->close();
