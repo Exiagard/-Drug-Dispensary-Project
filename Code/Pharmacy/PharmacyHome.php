@@ -1,1 +1,0 @@
-<a href="PharmacyCRUD.php">Tables</a>
