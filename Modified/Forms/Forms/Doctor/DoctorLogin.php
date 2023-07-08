@@ -6,7 +6,7 @@
 	<title>Doctor Login</title>
 </head>
 <body>
-	<form>
+	<form action="DoctorLoginProcess.php" method="POST">
 		<label>First Name: </label>
 		<input type="text" id="fname" name ="F_name">
 
@@ -14,7 +14,7 @@
 		<input type="text" id="lname" name="L_name">
 
 		<label>Password: </label>
-		<input type="text" name="pass">
+		<input type="text" name="Pass">
 
 		<input type="submit" name="Log In">
 
