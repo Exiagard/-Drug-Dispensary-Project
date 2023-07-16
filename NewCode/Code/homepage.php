@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="stylesheet.css">
   <title>DrugPen Dispensary</title> 
 </head>
 <body>
   <!-- Header -->
   <header>
-    <img src="" alt="DrugPen Dispensing Logo">
+    <img src="logo.png" alt="DrugPen Dispensing Logo">
     <nav>
       <ul>
         <li><a href="#home">Home</a></li>
@@ -24,9 +24,9 @@
   <!-- Above the Fold -->
   <section id="home">
     <h1>Welcome to the DrugPen Dispensing</h1>
-    <img src="/-Drug-Dispensary-Project/drugtrolley.png" alt="Drug Dispensing Tool in Action">
+    <img src="drugstore.png" alt="Drug Dispensing Tool in Action">
     <p>Never miss a dose again with our automated drug dispensing tool. Sign up today!</p>
-    <a href="login.php" class="cta-button">Sign Up</a>
+    <a href="#signup" class="cta-button">Sign Up</a>
   </section>
 
   <!-- Below the Fold -->
@@ -82,3 +82,4 @@
        </footer>       
 </body>
 </html>
+
