@@ -68,11 +68,8 @@
 
   <section id="contact">
     <h2>Contact Us</h2>
-    <p>For any inquiries or support, please fill out the form below:</p>
-    <form>
-      <!-- Add input fields for name, email, message, etc. -->
-      <input type="submit" value="Submit">
-    </form>
+    <p>For any inquiries or support, please send an email through drugpendispensary@gmail.com</p>
+  
   </section>
 
   <!--  footer Details -->
