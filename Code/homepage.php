@@ -9,7 +9,7 @@
 <body>
   <!-- Header -->
   <header>
-    <img src="/-Drug-Dispensing-Project/logo.png" alt="DrugPen Dispensing Logo">
+    <img src="/-Drug-Dispensing-Project/logo.png" alt="DrugPen Dispensary Logo">
     <nav>
       <ul>
         <li><a href="#home">Home</a></li>
@@ -23,7 +23,7 @@
 
   <!-- Above the Fold -->
   <section id="home">
-    <h1>Welcome to the DrugPen Dispensing</h1>
+    <h1>Welcome to the DrugPen Dispensary</h1>
     <img src="/-Drug-Dispensary-Project/drugtrolley.png" alt="Drug Dispensing Tool in Action">
     <p>Never miss a dose again with our automated drug dispensing tool. Sign up today!</p>
     <a href="#signup" class="cta-button">Sign Up</a>
