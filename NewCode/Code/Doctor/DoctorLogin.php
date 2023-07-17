@@ -46,6 +46,7 @@ session_start();
 <html>
 <head>
 	<title>Doctor Login</title>
+	<link rel="stylesheet" href="doctorlogin.css">
 </head>
 <body>		
 		<form method="post">
