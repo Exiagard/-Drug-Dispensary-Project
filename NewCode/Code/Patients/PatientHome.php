@@ -2,8 +2,8 @@
 session_start();
 include('../connect.php');
 include("functions.php");
+
 $user_data = check_login($conn);
-$prescriptiondata = check_login($conn);
 ?>
 
 <!DOCTYPE html>

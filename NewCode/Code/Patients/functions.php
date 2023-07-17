@@ -28,10 +28,10 @@ function check_login($conn)
 				return $prescriptiondata;
 			}
 
+	}
 		header("Location: PatientLogin.php");
 		die;
 
-	}
 }
 
 function random_num($length)
