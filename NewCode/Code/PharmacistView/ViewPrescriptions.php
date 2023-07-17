@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
+	<link rel="stylesheet" href="viewprescription.css">
 </head>
 <body>
 	<h2>View Prescriptions</h2>
