@@ -66,6 +66,7 @@ else {
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
+	<link rel="stylesheet" href="edit.css">
 </head>
 <body>
 	<h2>Edit Drugs</h2>
