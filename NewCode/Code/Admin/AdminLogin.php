@@ -46,6 +46,7 @@ session_start();
 <html>
 <head>
 	<title>Admin Login</title>
+	<link rel="stylesheet" href="adminlogin.css">
 </head>
 <body>		
 		<form method="post">
