@@ -47,6 +47,7 @@ session_start();
 <html>
 <head>
 	<title>Pharmaceutical Company Login</title>
+	<link rel="stylesheet" href="pclogin.css">
 </head>
 <body>		
 		<form method="post">
