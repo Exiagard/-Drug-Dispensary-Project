@@ -27,12 +27,13 @@ a {
   display: block;
   text-align: center;
   margin-top: 10px;
-  color: #000;
+  color: blue;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+  color: dark-blue;
 }
 
 /* Center Styles */
