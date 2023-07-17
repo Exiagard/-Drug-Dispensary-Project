@@ -20,6 +20,7 @@ form label {
   display: block;
   font-weight: bold;
   margin-top: 10px;
+  color: black;
 }
 
 form input[type="text"],
@@ -36,20 +37,23 @@ form select {
 
 form button[type="submit"] {
   background-color: #4caf50;
-  color: #fff;
+  color: black;
   cursor: pointer;
 }
 
 form button[type="submit"]:hover {
   background-color: #45a049;
+  color: black;
 }
 
 form a {
   display: block;
   text-align: center;
   margin-top: 10px;
+  color: blue;
 }
 
 form a:hover {
   text-decoration: underline;
+  color: dark-blue;
 }
