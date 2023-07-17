@@ -47,7 +47,7 @@ form button[type="submit"] {
 
 form button[type="submit"] {
   background-color: #4caf50;
-  color: #fff;
+  color: black;
   cursor: pointer;
 }
 form button[type="submit"]:hover {
@@ -58,8 +58,10 @@ form a {
   display: block;
   text-align: center;
   margin-top: 10px;
+  color: blue;
 }
 
 form a:hover {
   text-decoration: underline;
+  color: dark-blue;
 }
