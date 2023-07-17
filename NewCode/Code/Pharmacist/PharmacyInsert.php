@@ -28,3 +28,14 @@ if(isset($_POST['submit'])){
     }
 }
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pharmacist Registration</title>
+</head>
+<body>
+    <br><br><a href="PharmacyLogin.php">Login</a>
+</body>
+</html>
