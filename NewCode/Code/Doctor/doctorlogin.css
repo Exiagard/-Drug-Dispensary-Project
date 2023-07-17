@@ -35,20 +35,23 @@ form input[type="submit"] {
 
 form input[type="submit"] {
   background-color: #4caf50;
-  color: green;
+  color: black;
   cursor: pointer;
 }
 
 form input[type="submit"]:hover {
   background-color: green;
+  color: black;
 }
 
 form a {
   display: block;
   text-align: center;
   margin-top: 10px;
+  colour: blue;
 }
 
 form a:hover {
   text-decoration: underline;
+  color: dark-blue;
 }
