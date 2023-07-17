@@ -9,7 +9,7 @@
 <body>
   <!-- Header -->
   <header>
-    <img src="logo.png" alt="DrugPen Dispensing Logo">
+    <img src="logo.png" alt="DrugPen Dispensary Logo">
     <nav>
       <ul>
         <li><a href="#home">Home</a></li>
@@ -23,10 +23,10 @@
 
   <!-- Above the Fold -->
   <section id="home">
-    <h1>Welcome to the DrugPen Dispensing</h1>
+    <h1>Welcome to the DrugPen Dispensary</h1>
     <img src="drugstore.png" alt="Drug Dispensing Tool in Action">
     <p>Never miss a dose again with our automated drug dispensing tool. Sign up today!</p>
-    <a href="login.php" class="cta-button">Sign Up</a>
+    <a href="#signup" class="cta-button">Sign Up</a>
   </section>
 
   <!-- Below the Fold -->
@@ -68,11 +68,8 @@
 
   <section id="contact">
     <h2>Contact Us</h2>
-    <p>For any inquiries or support, please fill out the form below:</p>
-    <form>
-      <!-- Add input fields for name, email, message, etc. -->
-      <input type="submit" value="Submit">
-    </form>
+    <p>For any inquiries or support, please call +254 756843245 or send an email to drugpendispensary@gmail.com</p>
+  
   </section>
 
   <!--  footer Details -->
@@ -82,4 +79,5 @@
        </footer>       
 </body>
 </html>
+
 
