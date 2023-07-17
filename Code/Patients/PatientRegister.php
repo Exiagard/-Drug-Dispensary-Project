@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Patient Register</title>
+	<link rel="stylesheet" href="patientregister.css">
 </head>
 <body>
 	<form action="PatientInsert.php" method="POST">
