@@ -11,6 +11,7 @@ $user_data = check_login($conn);
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Home</title>
+	<link rel="stylesheet" href="adminhome.css">
 </head>
 <body>
 	<p>Logged in as <?php echo $user_data['username']; ?></p>
