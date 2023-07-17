@@ -47,6 +47,8 @@ session_start();
 <html>
 <head>
 	<title>Pharmacist Login</title>
+	<link rel="stylesheet" href="pharmacylogin.css">
+
 </head>
 <body>		
 	<center>
