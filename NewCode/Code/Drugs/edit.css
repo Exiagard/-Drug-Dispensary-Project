@@ -39,11 +39,12 @@ select {
 
 input[type="hidden"] {
   display: none;
+  color: red;
 }
 
 button[type="submit"] {
   background-color: #4caf50;
-  color: #fff;
+  color: black;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
@@ -54,8 +55,10 @@ a {
   display: block;
   text-align: center;
   margin-top: 20px;
+  color: blue;
 }
 
 a:hover {
   text-decoration: underline;
+  color: dark-blue;
 }
