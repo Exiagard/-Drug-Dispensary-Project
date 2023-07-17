@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Search Patients</title>
+	<link rel="stylesheet" href="searchpatients.css">
 </head>
 <body>
 <a href="../Doctor/DoctorHome.php">Back to Home</a>
