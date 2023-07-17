@@ -36,7 +36,7 @@ form input[type="submit"] {
 
 form input[type="submit"] {
   background-color: #4caf50;
-  color: #fff;
+  color: black;
   cursor: pointer;
 }
 
