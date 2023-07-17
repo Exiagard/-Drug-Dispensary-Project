@@ -47,6 +47,7 @@ session_start();
 <html>
 <head>
 	<title>Login</title>
+	<link rel="stylesheet" href="pclogin.css
 </head>
 <body>		
 		<form method="post">
