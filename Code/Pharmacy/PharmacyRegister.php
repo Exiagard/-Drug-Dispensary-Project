@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Pharmacy Register</title>
+	<link rel="stylesheet" href="pharmacyinsert.css">
 </head>
 <body>
 	<form action="PharmacyInsert.php" method="POST">
