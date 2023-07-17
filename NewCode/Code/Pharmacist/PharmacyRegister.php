@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Pharmacist Registration</title>
+	<link rel="stylesheet" href="pharmacyregister.css">
 </head>
 <body>
 	<center>
