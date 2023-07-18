@@ -11,7 +11,7 @@
 	<table class = "table">
 		<thread>
 			<tr>
-				<th>PharmacyID</th>
+				<th>PharmacistID</th>
 				<th>PharmacyName</th>
 				<th>Name</th>
 				<th>Address</th>
@@ -41,8 +41,8 @@
 					<td>$row[PhoneNumber]</td>
 					<td>$row[Password]</td>
 					<td>
-						<a href='edit.php?PharmacyID=$row[PharmacistID]'>Edit</a>
-						<a href='delete.php?PharmacyID=$row[PharmacistID]'>Delete</a>
+						<a href='edit.php?PharmacistID=$row[PharmacistID]'>Edit</a>
+						<a href='delete.php?PharmacistID=$row[PharmacistID]'>Delete</a>
 					</td>
 				</tr>
 				";

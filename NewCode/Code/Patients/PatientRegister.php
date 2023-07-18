@@ -12,16 +12,16 @@
 	<form action="PatientInsert.php" method="POST">
 
 		<label>PatientSSN: </label>
-		<input type="text" id="patientssn" name ="PatientSSN"><br><br>
+		<input type="text" id="patientssn" placeholder="PatientSSN" name ="PatientSSN"><br><br>
 
 		<label>Name: </label>
-		<input type="text" id="name" name ="Name"><br><br>
+		<input type="text" id="name" placeholder="Name" name ="Name"><br><br>
 
 		<label>Address: </label>
-		<input type="text" name="Address"><br><br>
+		<input type="text" placeholder="Address" name="Address"><br><br>
 
 		<label>Age</label>
-		<input type="text" name="Age"><br><br>
+		<input type="text" placeholder="Age" name="Age"><br><br>
 
 		<label>Primary Physician: </label>
 		<select name="DoctorID">
@@ -35,7 +35,7 @@
 		</select><br><br>
 
 		<label>Password: </label>
-		<input type="text" name="Pass"><br><br>
+		<input type="text" placeholder="Password" name="Pass"><br><br>
 
 		<button type="submit" name="submit">Submit</button>
 

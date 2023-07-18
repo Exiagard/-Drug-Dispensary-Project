@@ -12,14 +12,14 @@ include('../connect.php');
 
 if ($_SERVER['REQUEST_METHOD'] == 'GET'){
 
-	if(!isset($_GET["PharmacyID"])){
+	if(!isset($_GET["PharmacistID"])){
 		header("PharmacyCRUD.php");
 		exit;
 	}
 
-	$ID = $_GET["PharmacyID"];
+	$ID = $_GET["PharmacistID"];
 
-	$sql = "SELECT * FROM pharmacists WHERE PharmacyID=$ID";
+	$sql = "SELECT * FROM pharmacists WHERE PharmacistID=$ID";
 	$result = $conn->query($sql);
 	$row = $result->fetch_assoc();
 
@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET'){
     $Password = $row["Password"];
 }
 else {
-			$ID = $_POST['PharmacyID'];
+			$ID = $_POST['PharmacistID'];
 			$PName= $_POST['PharmacyName'];
 			$Name= $_POST['Name'];
 			$Address =  $_POST['Address'];
@@ -47,8 +47,8 @@ else {
     	$Error = "All Fields Required";
     	break;
     	}
-            	$sql = "UPDATE pharmacists ". "SET PharmacyName = '$PName', "SET Name = '$Name', 
-            		Address = '$Address',PhoneNumber = '$PhoneNumber',Password = '$Password'"."WHERE PharmacyID = '$ID'";
+            	$sql = "UPDATE pharmacists ". "SET PharmacyName = '$PName',Name = '$Name', 
+            		Address = '$Address',PhoneNumber = '$PhoneNumber',Password = '$Password'"."WHERE PharmacistID = '$ID'";
 
             	$result = $conn->query($sql);
             if(!$result){
@@ -80,10 +80,10 @@ if(!empty($Error)){
 }
  ?>
 	<form method="POST">
-		<input type="hidden" name="PharmacyID" value="<?php echo $ID; ?>">
+		<input type="hidden" name="PharmacistID" value="<?php echo $ID; ?>">
 
 		<label>Pharmacy Name: </label>
-		<input type="text" id="name" name ="Name" value="<?php echo $PName; ?>">
+		<input type="text" id="name" name ="PharmacyName" value="<?php echo $PName; ?>">
 
 		<label>Name: </label>
 		<input type="text" id="name" name ="Name" value="<?php echo $Name; ?>">

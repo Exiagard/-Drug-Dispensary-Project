@@ -51,5 +51,6 @@
 			
 		</tbody>
 	</table>
+	<a href="../Pharmacist/PharmacyHome.php">Back to Home</a>
 </body>
 </html>

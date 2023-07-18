@@ -18,7 +18,9 @@ $user_data = check_login($conn);
 	<a href="../logout.php">Logout</a><br><br>
 	<center>
 	<a href="../PharmacistView/ViewPrescriptions.php">View Prescriptions</a><br><br>
-	<a href="../PharmacistView/DispenseDrugs.php">Dispense Drugs</a>
+	<a href="../PharmacistView/SearchPrescriptions.php">Search Prescriptions</a><br><br>
+	<a href="../PharmacistView/DispenseDrugs.php">Dispense Drugs</a><br><br>
+	<a href="../PharmacistView/DispensedDrugsCRUD.php">Dispensed Drugs</a>
 	</center>
 </body>
 </html>
