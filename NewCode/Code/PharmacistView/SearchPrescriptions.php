@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Search Prescriptions for:</title>
+	<link rel="stylesheet" href="searchprescriptions.css">
 </head>
 <body>
 <a href="../Pharmacist/PharmacyHome.php">Back to Home</a>
