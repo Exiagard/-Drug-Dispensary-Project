@@ -31,6 +31,7 @@ if(isset($_POST['submit'])){
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Admin Registration</title>
+    <link rel="stylesheet" href="admininsert.css">
 </head>
 <body>
     <br><br><a href="AdminLogin.php">Login</a>
