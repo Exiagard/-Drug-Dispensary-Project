@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
+	<link rel="stylesheet" href="dispensedrugscrud.css">
 </head>
 <body>
 	<h2>Dispensed Drugs</h2>
