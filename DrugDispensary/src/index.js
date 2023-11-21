@@ -11,3 +11,8 @@
 	console.log(req);
 	res.send("Hello, World!");
 });*/
+
+api.post('/', (req,res) => {
+    console.log('Post Request Received');
+    res.send('It Works!');
+});
